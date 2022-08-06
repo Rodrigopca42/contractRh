@@ -53,7 +53,7 @@ public class Program {
 		}
 		
 		System.out.println(" ");
-		System.out.print("Insira o mês e o ano para calcular a renda (MM/AAAA)");
+		System.out.print("Insira o mês e o ano para calcular a renda (MM/AAAA): ");
 		String monthAndYear = tec.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
